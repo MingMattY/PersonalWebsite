@@ -1,0 +1,270 @@
+body, html {
+    margin: 0;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 500px;
+    
+}
+
+li a{
+    float: left;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 20px;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    margin: 36px;
+}
+
+.backgroundImage{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.95;
+    transform: translate3d(0xpx, 0px, 0px);
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.navbar{
+    float: right;
+}
+
+.heading{
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    width: auto;
+    height: 250px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.2);
+    display: inline-block;
+}
+
+#heading{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    top: 100px;
+    margin-top: 150px;
+}
+
+.intro{
+    margin-top: 500px;
+    height: 650px;
+}
+
+.title{
+    text-align: center;
+    align-content: center;
+    font-size: 46px;
+    margin-bottom: 80px;
+}
+
+.aboutPosition{
+    position: absolute;
+}
+
+.about{
+    margin-left: 900px;
+    font-size: 32px;
+}
+
+.introContent{
+    text-align: left;
+    margin: 0 250px 0 800px;
+}
+
+.list{
+    position: absolute;
+    text-align: center;
+    margin: 150px 0 0 350px;
+    line-height: 35px;
+}
+
+.strong{
+    font-size: 20px;
+}
+
+#profileP{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    left: 365px;
+    top: 1000px;
+    border-radius: 10px;    
+}
+
+.maincontent{
+    background-color: black;
+    width: auto;
+    height: 3800px; 
+}
+
+.industrialcontainer,.interactioncontainer{
+    height: 500px;
+}
+
+.photoscontainer{
+    height: 500px;
+    
+}
+
+.industrialcontainer{
+    margin-bottom: 500px;
+}
+
+.interactioncontainer{
+    margin-top: 200px;
+}
+
+.photoscontainer{
+    margin-top: 700px;
+}
+
+.industrial{
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    left: 500px;
+    margin-top: 150px;
+}
+
+.interaction{
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    left: 230px;
+    margin-top: 400px;
+}
+
+.photos{
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    left: 600px;
+    margin-top: 150px;
+}
+
+.industrialcontent{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin: 250px 300px 0 300px;
+}
+
+.photoscontent{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin: 250px 300px 0 300px;
+}
+
+.interactioncontent{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin: 500px 670px 0 150px;
+}
+
+.img1{
+    width: 450px;
+    height: 320px;
+    margin-left: 15%;
+    margin-top: 500px;
+}
+
+.img2{
+    width: 450px;
+    height: 320px;
+    float: right;
+    margin-right: 15%;
+    margin-top: 500px;
+}
+
+.img3{
+    width: 450px;
+    height: 320px;
+    margin: 50px 0 0 33%;
+}
+
+.img4{
+    width: 450px;
+    height: 320px;
+    margin-left: 900px;
+    margin-top: 400px;
+}
+
+.img5{
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin: 0 0 0 150px;
+}
+
+.img6{
+    width: 450px;
+    height: 320px;
+    margin: 50px 90px 0 0;
+    float: right;
+}
+
+.img7{
+    width: 33%;
+    height: 360px;
+}
+
+.img8{
+    width: 33%;
+    height: 360px;
+}
+
+.img9{
+    width: 33%;
+    height: 360px;
+}
+
+.img10{
+    width: 33%;
+    height: 360px;
+}
+
+.img11{
+    width: 33%;
+    height: 360px;
+}
+
+.img12{
+    width: 33%;
+    height: 360px;
+}
+
+.footer{
+    width: auto;
+    height: 300px;
+    background-color: goldenrod;
+    margin-top: 200px;
+}
